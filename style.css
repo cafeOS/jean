@@ -1,0 +1,1060 @@
+/* dubut du premiere section */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.contain {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(6, 0, 11, 0.717);
+
+}
+
+#password,
+#email {
+    padding: 5px 50px;
+    margin: 10px;
+
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(3, 1, 1);
+    border-color: blueviolet;
+
+}
+
+span {
+    color: rgb(60, 9, 108);
+    text-transform: uppercase;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+#erreur {
+    color: rgb(245, 13, 13);
+}
+
+
+.contain1 {
+    width: 30%;
+    height: 30vh;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.729);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 20px;
+
+}
+
+button {
+    padding: 7px 50px;
+    background-color: rgba(108, 13, 233, 0.594);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transform: scale(10px);
+
+}
+
+.message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 255, 0.822);
+}
+
+body {
+    width: 100%;
+    background-color: white;
+}
+
+.navbar {
+    width: 100%;
+    height: 10vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    position: sticky;
+    z-index: 10;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.651),white);
+    margin-bottom: 10%;
+    box-shadow: 2px 2px 10px 2px rgb(13, 12, 12);
+
+}
+
+.navbare {
+    width: 100%;
+    height: 10vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    position: sticky;
+    z-index: 10;
+    background-color: white;
+    margin-bottom: 10%;
+    box-shadow: 2px 2px 10px 2px rgb(13, 12, 12);
+    position: fixed;
+    transform: translateY(-25%);
+}
+
+
+
+.navbar-list {
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+
+}
+
+.navbar-list svg {
+    width: 25px;
+    cursor: pointer;
+
+}
+
+.logo {
+    width: 30%;
+    height: 10vh;
+}
+
+.navbar-list a {
+    color: rgba(0, 0, 0, 0.482);
+    transition-duration: 3s;
+    animation: cafe 10s ease-in infinite;
+}
+
+
+.navbar-list h1 {
+    color:white ;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: ecrir 10s steps(50) forwards;
+    color: rgb(219, 223, 226);
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+span {
+    color: rgb(60, 9, 108);
+    text-transform: uppercase;
+}
+
+.navbar-list a:hover {
+    background-color: rgba(0, 0, 0, 0.181);
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 1s;
+
+}
+
+
+.navbar-lis {
+    width: 30%;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.connexion {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.conne {
+    padding: 10px 30px;
+    border: none;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+
+
+
+}
+
+/* fin du premiere section*/
+/* debut du section nav */
+
+.cafe {
+    width: 50%;
+    height: 30vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    top: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.148);
+    display: none;
+}
+
+.cafe.active{
+    display: flex;
+}
+
+.cafe a {
+    /* width: 100%; */
+    color: rgba(0, 0, 0, 0.499);
+    margin-left: 5px;
+    border-radius: 5px;
+    animation: cafe 5s ease-in infinite;
+
+
+}
+
+.cafe a:hover {
+    background-color: rgba(0, 0, 0, 0.203);
+    padding: 2px;
+}
+
+/* debut du section nav */
+
+/* debut du deuxieme section */
+
+.canva {
+    width: 100%;
+    height: 50vh;
+    /* background-color: aqua; */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.connex {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+.canva h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: caf 15s ease-in infinite;
+    transition-duration: 20s;
+    color: black;
+}
+
+.canva p {
+    color: rgba(0, 0, 0, 0.55);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: cafe 10s ease-in infinite;
+}
+
+.canva a {
+    color: rgba(108, 13, 233, 0.631);
+    text-decoration: underline;
+}
+
+/* fin du deuxieme section */
+
+/* debut du toisieme section */
+
+.image {
+    width: 100%;
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.image1 {
+    width: 15%;
+    height: 30vh;
+    background-color: black;
+    border-radius: 10px;
+    transform: skewY(10px);
+    background-image: url(hello.jpeg);
+    background-size: cover;
+    object-fit: cover;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.465);
+
+}
+
+
+.image2 {
+    width: 30%;
+    height: 32vh;
+    background-image: url(mam.png);
+    border-radius: 10px;
+    transform: translateY(-40px);
+    object-fit: cover;
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.465);
+
+}
+
+.image3 {
+    width: 12%;
+    height: 25vh;
+    background-image: url(dad.png);
+    border-radius: 10px;
+    object-fit: cover;
+    background-size: cover;
+    transform: translateY(50px);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.465);
+}
+
+.image4 {
+    width: 13%;
+    height: 20vh;
+    background-image: url(ok.png);
+    border-radius: 10px;
+    object-fit: cover;
+    background-position: cover;
+    background-size: cover;
+    transform: translateY(-40px);
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.465);
+
+}
+
+.develop {
+    width: 100%;
+    height: 50vh;
+    /* background-color: aqua; */
+    display: flex;
+
+
+
+}
+.develop.dev.deve{
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.develop .deve:hover {
+    filter: none;
+}
+
+.develop:hover  .dev.deve {
+    filter: blur(4px);
+}
+
+
+.deve {
+    width: 90%;
+    height: 80vh;
+    background-size: cover;
+box-shadow: 10px 10px 100px 10px rgb(238, 234, 234);
+    transform: translateY(-30%);
+    
+    margin-left: 10%;
+    
+    background-image: url(oooo.jpeg);
+}
+
+
+
+/* fin du toisieme section */
+
+/* debut d'autre section  */
+
+.image10 {
+    width: 100%;
+    height: 60vh;
+
+
+}
+
+.image5 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image6 {
+    width: 31%;
+    height: 32vh;
+    background-image: url(mam.png);
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.529);
+}
+
+.image11 {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.image8 {
+    width: 10%;
+    height: 20vh;
+    background-image: url(hello.jpeg);
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 5px;
+    transform: translateY(-20px);
+    cursor: pointer;
+    animation: jean 20s ease-in infinite;
+    transition-duration: 50s;
+
+
+
+
+}
+
+.image9 {
+    width: 10%;
+    height: 20vh;
+    background-image: url(dad.png);
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 5px;
+    transform: translateY(-20px);
+    cursor: pointer;
+
+
+}
+
+.image0 {
+    width: 10%;
+    height: 20vh;
+    background-image: url(ok.png);
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 5px;
+    transform: translateY(-20px);
+    cursor: pointer;
+
+}
+
+/* .image13{
+    width: 50%;
+    height: 50vh;
+    background-image: url(Jeune\ programmeur\ et\ robot\ ChatGPT.png);
+    background-size: cover;
+    cursor: pointer;
+} */
+
+/* debut d'autre section  */
+
+/* debut du section de commentaire */
+
+
+.contact {
+    width: 100%;
+    height: 30vh;
+
+
+}
+
+.contact1 {
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.contact h1 {
+    animation: caf 15s ease-in infinite;
+    transition-duration: 10s;
+}
+
+/* fin du section de commentaire */
+
+/* debut du quatrieme section */
+
+.adres {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.adres a {
+    color: rgba(0, 0, 0, 0.55);
+    transition-duration: 2s;
+}
+
+.adres a:hover {
+    color: rgba(108, 13, 233, 0.594);
+    text-decoration: underline;
+    transition-duration: 5s;
+
+}
+
+.adres1 {
+    width: 20%;
+
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.adres2 {
+    width: 20%;
+    height: 40vh;
+
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+.navbar-lis button{
+    background-color: black;
+}
+
+.adres3 {
+    width: 20%;
+    height: 40vh;
+
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.adres4 {
+    width: 15%;
+    height: 40vh;
+
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.adres5 {
+    width: 20%;
+    height: 40vh;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.adress6 {
+    width: 100%;
+    height: 40vh;
+    /* background-color: aqua; */
+}
+
+details {
+
+    margin-left: 20px;
+    flex-direction: column;
+    cursor: pointer;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+details a {
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.532);
+    margin-left: 20px;
+
+}
+
+details a:hover {
+    color: rgba(108, 13, 233, 0.594);
+    text-decoration: underline;
+    transition-duration: 5s;
+
+}
+
+.people {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: none;
+
+    transform: translateY(-40%);
+}
+
+.people h1 {
+    font-size: 4rem;
+    color: rgba(5, 5, 6, 0.972);
+    font-family:'Courier New', Courier, monospace;
+    list-style-type:georgian;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: ecrir 10s steps(50) forwards;
+   
+    color: rgb(219, 223, 226);
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+    
+
+
+
+.people H2 {
+    font-size: 4rem;
+    color: rgb(3, 3, 3);
+    font-family: 'Courier New', Courier, monospace;
+    
+    color: rgb(219, 223, 226);
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+    
+
+
+.people h3 {
+    font-family: 'Courier New', Courier, monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 2rem;
+    width: 0;
+    animation: ecrire 10s steps(50) forwards;
+    
+    color: rgb(219, 223, 226);
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(7, 7, 7);
+}
+
+
+
+
+.okk{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* fin  du quatrieme section */
+
+/* debut du cinquieme section */
+
+.footer {
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer svg {
+
+
+    width: 25px;
+}
+
+.input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.279);
+    color: rgb(13, 12, 12);
+
+}
+
+
+.footer2 {
+    color: rgba(0, 0, 0, 0.482);
+    font-family: cursive;
+
+}
+
+.inscription{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formul{
+    width:30%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.193);
+    border-radius: 50px 10px 500px 10px;
+    border: 10px solid black;
+
+}
+.formul h1{
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 3rem;
+    width: 5px;
+    animation: ecrire 7s steps(60) forwards;
+    
+    color: rgb(219, 223, 226);
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(7, 7, 7);
+
+    margin-left: 13%;
+}
+
+.formul input{
+    width: 90%;
+    padding: 10px;
+    margin: 20px;
+}
+.bb button{
+    color:white;
+    background-color: black;
+    transform: translateY(300px);
+    transform: rotate(30s);
+}
+.bbb{
+    margin-right: 10%;
+}
+
+/* fin du cinquieme section */
+@keyframes cafe {
+    50% {
+        color: black;
+        animation-duration: 5s;
+       
+
+    }
+}
+
+@keyframes caf {
+    20% {
+        color: rgba(16, 16, 16, 0);
+    }
+}
+
+@keyframes jean {
+    20% {
+        color: rgba(16, 16, 16, 0);
+    }
+}
+
+@keyframes ecrire {
+    80% {
+        width: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 3rem;
+        width: 5px;
+        animation: ecrire 7s steps(60) forwards;
+    }
+
+    50%{
+        width: 30ch;
+        
+    }
+    100%{
+        width: 30ch;
+    }
+
+}
+@keyframes ecrir{
+    50%{
+        width: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 3rem;
+        width: 5px;
+        animation: ecrire 7s steps(60) forwards;
+    }
+    50%{
+        width: 10ch;
+    }
+}
+
+
+
+
+@media (max-width:826px) {
+    .navbar-list a {
+        display: none;
+    }
+    
+
+    .navbar-lis {
+        width: 50%;
+
+    }
+    .connexion{
+    display: none;
+    }
+
+
+    .adres a {
+        display: none;
+
+    }
+
+    .navbar-list p {
+        color: rgb(89, 89, 201);
+        margin-right: 15vh;
+    }
+
+    .adres {
+        flex-direction: column;
+        width: 100%;
+        height: 10vh;
+        padding: 20px;
+        display: none;
+
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image1 {
+        width: 100%;
+        height: 30vh;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+        background-size: cover;
+        display: none;
+
+    }
+
+    .image {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        /* /* flex-grow: initial; */
+        margin-left: 0px;
+        /* flex-direction: column; */
+    }
+
+    .image2 {
+        display: none;
+    }
+
+    hr {
+        margin-top: 30px;
+    }
+
+    .image4 {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        transform: translateX(-70px);
+        transform: translateY(20px);
+        z-index: 3px;
+        margin-right: 30px;
+        background-size: cover;
+        object-fit: cover;
+        display: none;
+
+
+
+    }
+
+    .image3 {
+        /* display: none; */
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: start;
+        transform: translateY(40px);
+        margin-left: 10px;
+
+
+    }
+
+    .image5 {
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .image6 {
+        width: 90%;
+        height: 30vh;
+    }
+
+    .image11 {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .image8 {
+        width: 29%;
+        height: 20vh;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .image9 {
+        width: 29%;
+        height: 20vh;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .image0 {
+        width: 29%;
+        height: 20vh;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .adress6 {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .contain1 {
+
+        border: none;
+ 
+        width: 70%;
+        height: 40vh;
+
+    }
+
+    .contain {
+        border: none;
+    }
+    .people{
+        width: 100%;
+    }
+
+    .people h1{
+        width: 100%;
+        /* transform: translateY(50px); */
+        font-size: 1.8rem;
+        justify-content: center;
+        display: flex;
+        
+        color: rgb(219, 223, 226);
+        font-weight: bold;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    
+    .people h2{
+        width: 100%;
+        font-size: 1.8rem;
+        
+        color: rgb(219, 223, 226);
+        font-weight: bold;
+        text-shadow: 2px 2px 5px black;
+    }
+    
+    .people h3{
+        transform: translateY(20px);
+        font-size: 1.3rem;
+        color: rgb(255, 255, 255);
+        font-weight:900;
+        
+       
+       
+        text-shadow: 2px 2px 5px  black;
+    }
+    
+    .develop{
+        width: 100%;
+        
+    }
+
+    .deve{
+        width: 100%;
+        transform: translateX(-20px);
+        background-size: cover;
+        height: 83%;
+        box-shadow: 10px 10px 100px 10px rgb(238, 234, 234);
+        
+    }
+.dev{
+    display: none;
+}
+
+.okk{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+}
+
+@media(min-width:826px) {
+    .navbar-list svg {
+        display: none;
+    }
+
+    .cafe {
+        display: none;
+    }
+
+    .image10 {
+        display: none;
+    }
+
+    .adress6 {
+        display: none;
+    }
+
+
+}
